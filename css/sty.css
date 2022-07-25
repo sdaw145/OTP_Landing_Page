@@ -1,0 +1,34 @@
+
+header,
+footer
+ {
+    background-color: #1F2937;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+
+}
+
+ul {
+list-style: none;
+display: flex;
+gap: 10px;
+margin-right: 10px;
+
+}
+.logo {
+    margin-left: 10px;
+    margin-right: auto;
+}
+a:visited {
+    color: grey;
+}
+a:link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+}
