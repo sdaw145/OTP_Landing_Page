@@ -27,9 +27,12 @@ list-style: none;
 display: flex;
 gap: 10px;
 }
-
-.logo {
+img{
+    height: 200px;
+    width: 200px;
 }
+
+
 a:visited {
     color: grey;
 }
@@ -41,4 +44,12 @@ a:link {
 button {
     background-color: #3882F6;
     color: white;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
 }
