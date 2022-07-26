@@ -1,6 +1,4 @@
 body {
-    display:flex;
-    flex-direction: column;
     min-height: 100vh;
     margin: 0;
 }
@@ -20,6 +18,16 @@ footer {
     align-items: center;
     justify-content: center;
     padding: 20px 0 20px 0;
+}
+.second {
+    text-align: center;
+}
+.bread {
+    display: flex;
+    justify-content: center;
+}
+.beer{
+    max-width: 200px;
 }
 
 ul {
