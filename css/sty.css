@@ -25,9 +25,22 @@ footer {
 .bread {
     display: flex;
     justify-content: center;
+    gap: 20px;
 }
 .beer{
     max-width: 200px;
+}
+
+.third {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:100px  
+}
+.quote {
+    max-height: 200px ;
+    max-width: 500px;
 }
 
 ul {
@@ -52,12 +65,4 @@ a:link {
 button {
     background-color: #3882F6;
     color: white;
-}
-
-.first {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    
 }
