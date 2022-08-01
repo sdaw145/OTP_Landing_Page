@@ -19,8 +19,35 @@ footer {
     justify-content: center;
     padding: 20px 0 20px 0;
 }
+.first {
+    background-color: #1F2937;
+    color: whitesmoke;
+    padding: 50px;
+    display: flex;
+    justify-content:center;
+    gap: 80px;
+    margin-bottom: 80px;
+ 
+
+}
+.jam {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+.ham {
+    background-color: grey;
+padding:100px 150px 100px 150px ;
+
+}
+
+.spam{
+    max-width: fit-content
+    
+}
 .second {
     text-align: center;
+    margin-bottom: 15px;
 }
 .bread {
     display: flex;
