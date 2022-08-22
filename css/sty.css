@@ -63,26 +63,60 @@ padding:100px 150px 100px 150px ;
 .third {
     background-color: #E5E7EB;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding:100px  
-}
-
-.fourth {
-display: flex;
-justify-content: center;
-padding: 15px;
-}
-.lab{
-    background-color: aqua;
-    width: 480px;
-    padding: 16px; 
+    padding:100px;
 }
 
 .quote {
     max-height: 200px ;
     max-width: 500px;
+    margin-left: 30%;
 }
+
+#thor {
+    display: flex;
+    justify-content:flex-end ;
+}
+
+.fourth {
+    height: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.banner-container{
+    background-color: aqua;
+    width: 60%;
+    height: 40%;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: row;
+}
+.last-left{
+    width: 70%;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.last-right{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+
+}
+ .last-title{
+    font-size: 24px;
+    font-weight: 700;
+ 
+ }
+.last-text {
+   font-weight: 500;
+}
+
 
 ul {
 list-style: none;
@@ -107,5 +141,6 @@ a:link {
 button {
     background-color: #3882F6;
     color: white;
-    max-width: fit-content;
+    
+    
 }
